@@ -7011,7 +7011,35 @@ ul {
     background: url(../img/business.jpeg);
 }
 
+#partners .secend-bg {
+    background: url(../img/club_1.jpeg);
+}
+
+#partners .third-bg {
+    background: url(../img/club_2.jpeg);
+}
+
 #partners .first-bg:after {
+    display: block;
+  position: relative;
+  background-image: linear-gradient(to top, rgba(0, 71, 32, 0.4) 0%, #1c7c47 100%);
+  margin-top: -180px;
+  height: 180px;
+  width: 100%;
+  content: '';
+}
+
+#partners .secend-bg:after {
+    display: block;
+  position: relative;
+  background-image: linear-gradient(to top, rgba(0, 71, 32, 0.4) 0%, #1c7c47 100%);
+  margin-top: -180px;
+  height: 180px;
+  width: 100%;
+  content: '';
+}
+
+#partners .third-bg:after {
     display: block;
   position: relative;
   background-image: linear-gradient(to top, rgba(0, 71, 32, 0.4) 0%, #1c7c47 100%);
@@ -7054,5 +7082,19 @@ ul {
 
 .pagination li a {
     color: #1c7c47;
+}
+
+.card {
+    padding: 15px;
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.card-default {
+    color: #333;
+    background: linear-gradient(#fff,#ebebeb) repeat scroll 0 0 transparent;
+    font-weight: 600;
+    border-radius: 6px;
 }
 
