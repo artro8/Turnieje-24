@@ -7100,8 +7100,8 @@ ul {
 .full {
     background-size: cover;
     background-position: 50% 50%;
-    background: #111111;
-    border-top: 3px solid #1c7c47;
+    background: #004720;
+    border-top: 6px solid #1c7c47;
 }
 .centered-text {
     text-align: center;
@@ -7139,7 +7139,7 @@ ul {
     filter: grayscale(100%);
     display: inline;
     margin: 5px 2px;
-    padding: 50px 15px;
+    padding: 20px 10px;
 }
 
 
